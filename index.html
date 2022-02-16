@@ -12,8 +12,34 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-    <h1>Monthly Calculation</h1>
+<body class=" container">
+    <h1 class="heading-style text-center p-5">Monthly Calculation</h1>
+    <div class="">
+        <div class="row">
+            <div class="col-6">
+                <img width="100%" src="https://wallpaperaccess.com/full/1651747.jpg" alt="">
+            </div>
+            <div class="col-6 text-center">
+                <h5 class="py-2">Income</h5>
+                <p><span class="input">Income:</span> <input type="text" id="income"></p>
+                <h5 class="py-2">Expenses</h5>
+                <p>Food: <input type="text" id="food"></p>
+                <p>Rent: <input type="text" id="rent"></p>
+                <p>Clothes: <input type="text" id="cloth"></p>
+                <button id="calculate" class="button-style border border-1 px-4 py-2 my-2 rounded"
+                    type="submit">Calculate</button>
+                <h5>Total Expenses: <button id="expense" class=" border border-1 "></button> </h5>
+                <h5>Balance: <button id="balance" class="border border-1 "></button> </h5>
+                <p>Save: <button class=" px-5 py-2 border border-1 save-style">20</button> % <button
+                        class="button-style px-5 py-2 border border-1">Save</button>
+                </p>
+                <h5>Saving Amount: <button class=" px-5 pb-2 pt-3 border  border-1 "></button> </h5>
+                <h5>Remaining Balance: <button class=" px-5 pb-2 pt-3 border border-1 "></button> </h5>
+            </div>
+
+        </div>
+    </div>
+    </div>
     <script src="./code.js"></script>
 </body>
 

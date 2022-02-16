@@ -6,3 +6,19 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+h5,h1{
+    font-weight: bold;
+}
+.heading-style{
+color: aqua;
+}
+.input{
+    margin-right: 10px;
+}
+.button-style{
+   background-color: rgb(83, 247, 247);
+   
+}
+.save-style{
+    background-color: rgb(194, 193, 193);
+}
