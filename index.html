@@ -7,40 +7,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- bootstrap  -->
+
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
     <!-- css style -->
+
     <link rel="stylesheet" href="./style.css">
 </head>
 
-<body class=" container">
+<body class=" container bg-dark text-secondary">
+
+    <!-- heading -->
     <h1 class="heading-style text-center p-5">Monthly Calculation</h1>
-    <div class="">
+
+    <!-- main part -->
+
+    <div>
         <div class="row">
-            <div class="col-6">
+
+            <!-- first half -->
+
+            <div class="col-lg-6 col-sm-12">
                 <img width="100%" src="https://wallpaperaccess.com/full/1651747.jpg" alt="">
             </div>
-            <div class="col-6 text-center">
+
+            <!-- second half -->
+
+            <div class="col-lg-6 col-sm-12 text-center">
+                <!-- income -->
+
                 <h5 class="py-2">Income</h5>
-                <p><span class="input">Income:</span> <input type="text" id="income"></p>
+                <p><span class="input">Income:</span> <input class="px-2" type="number" id="income"></p>
+
+                <!-- total expense -->
+
                 <h5 class="py-2">Expenses</h5>
-                <p>Food: <input type="text" id="food"></p>
-                <p>Rent: <input type="text" id="rent"></p>
-                <p>Clothes: <input type="text" id="cloth"></p>
-                <button id="calculate" class="button-style border border-1 px-4 py-2 my-2 rounded"
+                <p>Food: <input class="px-2" type="number" id="food"></p>
+                <p>Rent: <input class="px-2" type="number" id="rent"></p>
+                <p>Clothes: <input class="px-2" type="number" id="cloth"></p>
+                <button id="calculate" class="button-style border border-1 px-4 py-2 my-2 rounded-2"
                     type="submit">Calculate</button>
+
+                <!-- calculation result  -->
+
                 <h5>Total Expenses: <button id="expense" class=" border border-1 "></button> </h5>
                 <h5>Balance: <button id="balance" class="border border-1 "></button> </h5>
-                <p>Save:<button class="save-style px-5 py-2 border border-1">20</button> % <button id="save"
-                        class="button-style px-5 py-2 border border-1">Save</button>
+
+                <!-- saving part -->
+
+                <p>Save:<button class="save-style px-5 py-2 mx-2 border border-2  rounded-2">20</button> % <button
+                        id="save" class="button-style px-5 py-2 mx-2 border border-2  rounded-2">Save</button>
                 </p>
-                <h5>Saving Amount: <button id="save-amount" class="  border  border-1 "></button> </h5>
-                <h5>Remaining Balance: <button id="remaining-balance" class=" border border-1 "></button>
+                <h5>Saving Amount: <button id="save-amount"></button> </h5>
+                <h5>Remaining Balance: <button id="remaining-balance"></button>
                 </h5>
             </div>
 
         </div>
     </div>
     </div>
+
+    <!-- javascript link -->
+    <!-- <script src="./app.js"></script> -->
     <script src="./code.js"></script>
 </body>
 

@@ -1,5 +1,7 @@
 /* google fonts */
 
+/* google fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
 
 /* common styles */
@@ -10,15 +12,15 @@ h5,h1{
     font-weight: bold;
 }
 .heading-style{
-color: aqua;
+color: palevioletred;
 }
 .input{
     margin-right: 10px;
 }
 .button-style{
-   background-color: rgb(83, 247, 247);
+   background-color: palevioletred;
    
 }
 .save-style{
-    background-color: rgb(194, 193, 193);
+    background-color: rgb(233, 230, 230);
 }
