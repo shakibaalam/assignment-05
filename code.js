@@ -42,8 +42,8 @@ document.getElementById('calculate').addEventListener('click', function () {
 document.getElementById('save').addEventListener('click', function () {
     //saving amount
     const savingAmount = document.getElementById('save-amount');
-
-    const percentage = getInput('income') * (20 / 100);
+    // const percentageValue = document.getElementById('percentage')
+    const percentage = getInput('income') * (getInput('percentage') / 100);
     savingAmount.innerText = percentage;
 
 
@@ -57,7 +57,12 @@ document.getElementById('save').addEventListener('click', function () {
 
     if (percentage > document.getElementById('balance').innerText) {
         alert("you don't have enough money to save");
-        remaining.innerText = document.getElementById('balance').innerText;
+        if (document.getElementById('balance').innerText > 0) {
+            remaining.innerText = document.getElementById('balance').innerText;
+        }
+        else {
+            remaining.innerText = '00';
+        }
     }
 
 })

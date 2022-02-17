@@ -36,14 +36,14 @@
                 <!-- income -->
 
                 <h5 class="py-2">Income</h5>
-                <p><span class="input">Income:</span> <input class="px-2" type="number" id="income"></p>
+                <p class="input">Income:<input class="px-2 ms-2" type="number" id="income"> </p>
 
                 <!-- total expense -->
 
                 <h5 class="py-2">Expenses</h5>
-                <p>Food: <input class="px-2" type="number" id="food"></p>
-                <p>Rent: <input class="px-2" type="number" id="rent"></p>
-                <p>Clothes: <input class="px-2" type="number" id="cloth"></p>
+                <p>Food: <input class="px-2 ms-2" type="number" id="food"></p>
+                <p>Rent: <input class="px-2 ms-2" type="number" id="rent"></p>
+                <p><span class="me-3">Clothes:</span> <input class="ps-2  me-3" type="number" id="cloth"></p>
                 <button id="calculate" class="button-style border border-1 px-4 py-2 my-2 rounded-2"
                     type="submit">Calculate</button>
 
@@ -54,8 +54,8 @@
 
                 <!-- saving part -->
 
-                <p>Save:<button class="save-style px-5 py-2 mx-2 border border-2  rounded-2">20</button> % <button
-                        id="save" class="button-style px-5 py-2 mx-2 border border-2  rounded-2">Save</button>
+                <p>Save: <input type="number" class="save-style mx-2 " id="percentage">
+                    % <button id="save" class="button-style px-3  mx-2 border border-2  rounded-2">Save</button>
                 </p>
                 <h5>Saving Amount: <button id="save-amount"></button> </h5>
                 <h5>Remaining Balance: <button id="remaining-balance"></button>
@@ -67,7 +67,7 @@
     </div>
 
     <!-- javascript link -->
-    <!-- <script src="./app.js"></script> -->
+
     <script src="./code.js"></script>
 </body>
 
